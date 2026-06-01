@@ -136,7 +136,7 @@ const branches = [
         role: "Singaporean Regional Lead & Western Hemisphere Lead",
         image: "/people/klarisse.jpeg",
       },
-      { name: "Kaitlyn", 
+      { name: "Kaitlyn Tay Rui Yi", 
         role: "Singaporean Regional Lead", 
         image: "/people/kaitlyn.png", 
         linkedin: "https://www.linkedin.com/in/kaitlyn-tay-rui-yi",
