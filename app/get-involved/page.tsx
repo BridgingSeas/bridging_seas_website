@@ -35,7 +35,7 @@ const opportunities = [
   {
     title: "Become a Director",
     description:
-      "Join our core team as a director and be involved in outreach, program management, graphic design, technology, and more. Applications are open for individuals in high school and college. Sign up for our newsletter to see when applications open",
+      "Join our core team as a director and be involved in outreach, program management, graphic design, technology, and more. Applications are open for individuals ages 14+ with no upper age restriction. Sign up for our newsletter to see when applications open",
     href: "https://forms.google.com",
     cta: "Applications Closed",
     disabled: true,

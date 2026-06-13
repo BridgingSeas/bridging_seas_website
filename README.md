@@ -1,25 +1,3 @@
-# Bridging Seas
-
-Bridging Seas is a youth-led global organization focused on connecting members of the Asian diaspora through cultural exchange, leadership development, and community building.
-
-This repository contains the official Bridging Seas website.
-
-## Features
-
-- Chapter and regional pages
-- Information about programs and initiatives
-- Team and leadership profiles
-- Responsive and modern UI
-
-## Tech Stack
-
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- Vercel deployment
- --------------------------
-
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
