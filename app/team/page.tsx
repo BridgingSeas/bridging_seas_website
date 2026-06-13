@@ -91,16 +91,6 @@ const branches = [
         role: "Singaporean Outreach Director",
         image: "/people/chloe.jpeg",
       },
-      {
-        name: "Kulraj Kaur",
-        role: "Chapter Manager",
-        image: "/people/kulraj.png",
-      },
-      {
-        name: "Julia Chawarski",
-        role: "Program Manager",
-        image: "/people/julia.jpeg"
-      },
     ],
   },
   {
@@ -136,7 +126,7 @@ const branches = [
         role: "Singaporean Regional Lead & Western Hemisphere Lead",
         image: "/people/klarisse.jpeg",
       },
-      { name: "Kaitlyn Tay Rui Yi", 
+      { name: "Kaitlyn", 
         role: "Singaporean Regional Lead", 
         image: "/people/kaitlyn.png", 
         linkedin: "https://www.linkedin.com/in/kaitlyn-tay-rui-yi",

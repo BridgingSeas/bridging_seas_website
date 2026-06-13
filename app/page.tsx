@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Marker } from "leaflet";
+import ChaptersMap from "@/components/ChaptersMap";
 
 export const metadata: Metadata = {
   title: "Home",
@@ -33,6 +35,7 @@ const stats = [
   { value: "20+", label: "Chapters" },
 ];
 
+  
 const pillars = [
   {
     title: "Culture",
@@ -47,7 +50,7 @@ const pillars = [
   {
     title: "Community",
     icon: "/pillars/community.png",
-    body: "Bridging Sea’s foremost mission is to foster a community for our students to feel comfortable in sharing their culture. Through monthly meetings and community corners, we aim to make our students feel supported and heard in our community as they grow in their cultural exploration.",
+    body: "Bridging Sea's foremost mission is to foster a community for our students to feel comfortable in sharing their culture. Through monthly meetings and community corners, we aim to make our students feel supported and heard in our community as they grow in their cultural exploration.",
   },
 ];
 
@@ -76,7 +79,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <section className="bg-background">
         <div className="mx-auto max-w-[1440px] px-6 py-10 sm:px-10 sm:py-14 lg:px-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
@@ -105,7 +107,6 @@ export default function Home() {
           <div className="mt-6 flex justify-center">
             <Link
               href="/about"
-              
               className="rounded-2xl bg-primary px-12 py-3 text-center text-base ttransition-all duration-200 hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(44,62,64,0.18)] sm:min-w-[280px] sm:text-lg"
             >
               Our Story
@@ -117,8 +118,8 @@ export default function Home() {
       <section className="bg-background">
         <div className="mx-auto max-w-[1440px] px-6 py-10 sm:px-10 sm:py-14 lg:px-16">
           <p className="max-w-2xl text-sm font-semibold leading-6 sm:text-lg">
-            Over the years, Bridging Seas has achieved multiple milestones and
-            earned recognition from students, educators and community partners.
+            Over the years Bridging Seas has achieved multiple milestones and
+            earned recognition from students, educators, and community partners.
           </p>
           <div className="mt-10 grid gap-10 sm:grid-cols-3">
             {stats.map((stat) => (
@@ -136,6 +137,18 @@ export default function Home() {
       <section className="bg-background">
         <div className="mx-auto max-w-[1440px] px-6 py-10 sm:px-10 sm:py-14 lg:px-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
+            Our Partner Schools
+          </h2>
+          <p className="mt-3 text-sm text-muted sm:text-lg">
+            Bridging Seas partners with schools across the globe.
+          </p>
+          <ChaptersMap />
+        </div>
+      </section>
+
+      <section className="bg-background">
+        <div className="mx-auto max-w-[1440px] px-6 py-10 sm:px-10 sm:py-14 lg:px-16">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
             Our Pillars
           </h2>
           <p className="mt-3 text-sm text-muted sm:text-lg">
@@ -143,7 +156,6 @@ export default function Home() {
             build.
           </p>
           <div className="mt-8 grid gap-6 lg:grid-cols-3">
-            {/* instead of background, do box shadows */}
             {pillars.map((pillar) => (
               <article
                 key={pillar.title}
