@@ -10,6 +10,8 @@ type Person = {
   name: string;
   role: string;
   image: string;
+  school?: string;
+  major?: string;
   linkedin?: string;
   github?: string;
   website?: string;
@@ -26,14 +28,19 @@ const execDirectors = [
     name: "Lauren Lee",
     role: "Executive Director & Co-Founder",
     image: "/people/lauren.jpg",
+    school: "Yale University",
+    major: "Computer Science; minors in Chinese Language & Ethnography",
     linkedin: "https://www.linkedin.com/in/laurenwylee/",
     github: "https://github.com/laurenwylee",
-    website: "https://github.com/laurenwylee",
+    // website: "https://github.com/laurenwylee",
   },
   {
     name: "Sharon Liu",
     role: "Executive Director & Co-Founder",
     image: "/people/sharon.png",
+    school: "Stony Brook University",
+    major: "Linguistics & Psychology",
+    linkedin: "https://www.linkedin.com/in/sharon-liu-381a40219/",
   },
 ] satisfies Person[];
 
@@ -284,27 +291,39 @@ export default function TeamPage() {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-3xl font-bold tracking-tight">Exec Directors</h2>
-            <div className="mt-5 grid gap-4 md:grid-cols-2">
+            <h2 className="text-3xl font-bold tracking-tight">Executive Directors</h2>
+            <div className="mt-5 grid gap-6 md:grid-cols-2">
               {execDirectors.map((member) => (
                 <div
                   key={member.name}
-                  className="rounded-2xl bg-primary/50 p-5 shadow-[0_8px_20px_rgba(44,62,64,0.08)] sm:p-6"
+                  className="mx-auto flex w-full max-w-[340px] flex-col rounded-2xl bg-primary/50 p-4 shadow-[0_8px_20px_rgba(44,62,64,0.08)]"
                 >
-                  <div className="grid gap-5 lg:grid-cols-[180px_1fr] lg:items-end">
-                    <div className="relative aspect-square overflow-hidden rounded-md bg-background">
-                      <Image
-                        src={member.image}
-                        alt={member.name}
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <div className="pb-1">
-                      <h3 className="text-2xl font-bold text-foreground sm:text-3xl">
-                        {member.name}
-                      </h3>
-                      <p className="mt-2 text-base text-muted">{member.role}</p>
+                  <div className="relative aspect-square overflow-hidden rounded-md bg-background">
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  <div className="mt-4 flex flex-1 flex-col">
+                    <h3 className="text-xl font-bold text-foreground">
+                      {member.name}
+                    </h3>
+                    <p className="mt-0.5 text-xs font-semibold uppercase tracking-widest text-foreground/60">
+                      {member.role}
+                    </p>
+                    {(member.school || member.major) && (
+                      <div className="mt-3 border-t border-foreground/10 pt-3">
+                        {member.school && (
+                          <p className="text-sm font-medium text-foreground/80">{member.school}</p>
+                        )}
+                        {member.major && (
+                          <p className="mt-0.5 text-xs text-muted">{member.major}</p>
+                        )}
+                      </div>
+                    )}
+                    <div className="mt-auto pt-3">
                       <SocialRow
                         linkedin={member.linkedin}
                         github={member.github}
