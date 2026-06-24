@@ -1,12 +1,12 @@
 import Image from "next/image"
 
-export default function LinkedinLogo() {
+export default function LinkedinLogo({ size = 20 }: { size?: number }) {
   return (
     <Image
       src="/social/linkedin_logo.png"
       alt="LinkedIn Icon"
-      width={20}
-      height={20}
+      width={size}
+      height={size}
       className="rounded-full"
     />
   )

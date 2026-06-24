@@ -208,18 +208,20 @@ const branches = [
 function SocialRow({
   linkedin,
   github,
-  website
+  website,
+  iconSize = 20,
 }: Readonly<{
   linkedin?: string;
   github?: string;
   website?: string;
+  iconSize?: number;
 }>) {
   if (!linkedin && !github && !website) {
     return null;
   }
 
   return (
-    <div className="mt-2 flex gap-2">
+    <div className="flex gap-2">
       {linkedin ? (
         <Link
           href={linkedin}
@@ -228,7 +230,7 @@ function SocialRow({
           aria-label="LinkedIn profile"
           className="transition-transform duration-200 hover:-translate-y-0.5"
         >
-          <LinkedinLogo />
+          <LinkedinLogo size={iconSize} />
         </Link>
       ) : null}
       {github ? (
@@ -239,7 +241,7 @@ function SocialRow({
           aria-label="GitHub profile"
           className="transition-transform duration-200 hover:-translate-y-0.5"
         >
-          <GithubLogo />
+          <GithubLogo size={iconSize} />
         </Link>
       ) : null}
       {website ? (
@@ -323,10 +325,11 @@ export default function TeamPage() {
                         )}
                       </div>
                     )}
-                    <div className="mt-auto pt-3">
+                    <div className="mt-auto pt-2">
                       <SocialRow
                         linkedin={member.linkedin}
                         github={member.github}
+                        iconSize={26}
                       />
                     </div>
                   </div>
