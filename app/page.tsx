@@ -83,8 +83,11 @@ export default function Home() {
             Connect with your roots
           </h2>
           <p className="mt-4 max-w-4xl text-sm leading-6 text-foreground/75 sm:text-base">
-            Bridging Seas is a youth-led global organization that aims to unify the Asian diaspora. Our goal is to connect high schoolers from around the world by creating a platform for them to learn about each other&apos;s cultures and unique experiences. We envision a more compassionate, understanding world where students embrace their roots and different lifestyles through direct communication with international friends.
+            Bridging Seas is a youth-led global organization that aims to unify the Asian diaspora. Through our international <strong className="text-foreground">pen pal program</strong>, we connect high school students across countries to build lasting friendships and learn from one another&apos;s cultures and lived experiences.          </p>
+          <p className="mt-4 max-w-4xl text-sm leading-6 text-foreground/75 sm:text-base">
+            Our goal is to connect high schoolers from around the world by creating a platform for them to learn about each other&apos;s cultures and unique experiences. We envision a more compassionate, understanding world where students embrace their roots and different lifestyles through direct communication with international friends.
           </p>
+
 
           <div className="mt-8 grid gap-4 md:grid-cols-4 md:grid-rows-1">
             {highlightCards.map((card) => (
@@ -104,11 +107,10 @@ export default function Home() {
 
           <div className="mt-6 flex justify-center">
             <Link
-              href="/about"
-              
-              className="rounded-2xl bg-primary px-12 py-3 text-center text-base ttransition-all duration-200 hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(44,62,64,0.18)] sm:min-w-[280px] sm:text-lg"
+              href="/get-involved"
+              className="rounded-2xl bg-primary px-12 py-3 text-center text-base transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(44,62,64,0.18)] sm:min-w-[280px] sm:text-lg"
             >
-              Our Story
+              Get Involved
             </Link>
           </div>
         </div>
