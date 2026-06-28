@@ -27,7 +27,7 @@ const opportunities = [
   {
     title: "Start a Local Chapter",
     description:
-      "Bring Bridging Seas to your own community by applying to launch a chapter and bring cultural exchange to your local community.",
+      "Bring Bridging Seas to your area by applying to launch a chapter and bring cultural exchange to your local community.",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScYGC_HbJl_rvI5TwyztBftRs1AcR9noqD0riVIt_xsPUxqlg/viewform?usp=dialog",
     cta: "Chapter Application",
     disabled: false,
@@ -35,9 +35,17 @@ const opportunities = [
   {
     title: "Become a Director",
     description:
-      "Join our core team as a director and be involved in outreach, program management, graphic design, technology, and more. Applications are open for individuals in high school and college. Sign up for our newsletter to see when applications open",
+      "Join our core team as a director and be involved in outreach, program management, graphic design, technology, and more. Applications are open to high school students, college students, and adults alike.",
     href: "https://docs.google.com/forms/d/e/1FAIpQLScMdbY9YURmDXzZZ6NQSjuyQ0KVH3PFHY6wfLnGsffq4rXdNA/viewform?usp=header",
     cta: "Director Application",
+    disabled: false,
+  },
+  {
+    title: "Join Our Board",
+    description:
+      "Interested in serving on our board or becoming an advisor? Reach out to us directly to learn more about how you can help guide Bridging Seas.",
+    href: "mailto:bridgingseasnyc@gmail.com",
+    cta: "Contact Us",
     disabled: false,
   },
   {
@@ -51,7 +59,7 @@ const opportunities = [
   {
     title: "Join the Team",
     description:
-      "Interested in helping shape programs, outreach, design, technology, or community building? Learn more about director openings and how to get involved with the Bridging Seas team.",
+      "Interested in helping shape programs, outreach, design, technology, or community building? Learn more about how to get involved with the Bridging Seas team.",
     href: "https://x3vswh56e67.typeform.com/to/OqTPK0Nw?typeform-source=bridgingseas.carrd.co",
     cta: "Team Application",
     disabled: false,
