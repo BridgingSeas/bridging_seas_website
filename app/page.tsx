@@ -82,7 +82,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
             Connect with your roots
           </h2>
-          <p className="mt-4 max-w-4xl text-sm leading-6 text-foreground/75 sm:text-base">
+          <p className="mt-6 max-w-4xl text-sm leading-6 text-foreground/75 sm:text-base">
             Bridging Seas is a youth-led global organization that aims to unify the Asian diaspora. Through our international <strong className="text-foreground">pen pal program</strong>, we connect high school students across countries to build lasting friendships and learn from one another&apos;s cultures and lived experiences.
           </p>
           <p className="mt-4 max-w-4xl text-sm leading-6 text-foreground/75 sm:text-base">
