@@ -41,7 +41,7 @@ const opportunities = [
     disabled: false,
   },
   {
-    title: "Join Our Board",
+    title: "Join Our Board or Become an Advisor",
     description:
       "Interested in serving on our board or becoming an advisor? Reach out to us directly to learn more about how you can help guide Bridging Seas.",
     href: "mailto:bridgingseasnyc@gmail.com",
