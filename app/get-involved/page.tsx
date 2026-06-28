@@ -36,9 +36,9 @@ const opportunities = [
     title: "Become a Director",
     description:
       "Join our core team as a director and be involved in outreach, program management, graphic design, technology, and more. Applications are open for individuals in high school and college. Sign up for our newsletter to see when applications open",
-    href: "https://forms.google.com",
-    cta: "Applications Closed",
-    disabled: true,
+    href: "https://docs.google.com/forms/d/e/1FAIpQLScMdbY9YURmDXzZZ6NQSjuyQ0KVH3PFHY6wfLnGsffq4rXdNA/viewform?usp=header",
+    cta: "Director Application",
+    disabled: false,
   },
   {
     title: "Partner With Us",
