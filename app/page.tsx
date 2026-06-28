@@ -83,9 +83,10 @@ export default function Home() {
             Connect with your roots
           </h2>
           <p className="mt-4 max-w-4xl text-sm leading-6 text-foreground/75 sm:text-base">
-            Bridging Seas is a youth-led global organization that aims to unify the Asian diaspora. Through our international <strong className="text-foreground">pen pal program</strong>, we connect high school students across countries to build lasting friendships and learn from one another&apos;s cultures and lived experiences.          </p>
+            Bridging Seas is a youth-led global organization that aims to unify the Asian diaspora. Through our international <strong className="text-foreground">pen pal program</strong>, we connect high school students across countries to build lasting friendships and learn from one another&apos;s cultures and lived experiences.
+          </p>
           <p className="mt-4 max-w-4xl text-sm leading-6 text-foreground/75 sm:text-base">
-            Our goal is to connect high schoolers from around the world by creating a platform for them to learn about each other&apos;s cultures and unique experiences. We envision a more compassionate, understanding world where students embrace their roots and different lifestyles through direct communication with international friends.
+            Our goal is to create a platform where high school students can learn about one another&apos;s cultures, while giving members of the Asian diaspora a deeper understanding of how cultures evolve across different parts of the world. We envision a more compassionate and understanding world where students embrace their roots and appreciate different ways of life through meaningful connections with international friends.
           </p>
 
 
