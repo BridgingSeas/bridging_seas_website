@@ -118,11 +118,11 @@ const branches = [
       //   role: "Canadian Regional Lead",
       //   image: "/photos/conference.jpg",
       // },
-      // {
-      //   name: "Shiza Khan",
-      //   role: "Canadian Director of Graphic Design",
-      //   image: "/people/shiza.jpg",
-      // },
+      {
+        name: "Shiza Khan",
+        role: "Canadian Director of Graphic Design",
+        image: "/people/shiza2.jpg",
+       },
       { name: "Miriam Cherian", 
         role: "Marketing Director", 
         image: "/people/miriam.jpg" 
