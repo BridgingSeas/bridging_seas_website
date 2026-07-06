@@ -113,11 +113,11 @@ const branches = [
   {
     title: "Canada Region",
     members: [
-      // {
-      //   name: "Shweta Saju",
-      //   role: "Canadian Regional Lead",
-      //   image: "/photos/conference.jpg",
-      // },
+      {
+        name: "Shweta Saju",
+        role: "Canadian Regional Lead",
+        image: "/photos/shweta.jpg",
+      },
       {
         name: "Shiza Khan",
         role: "Canadian Director of Graphic Design",
