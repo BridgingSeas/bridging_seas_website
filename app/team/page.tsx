@@ -116,7 +116,7 @@ const branches = [
       {
         name: "Shweta Saju",
         role: "Canadian Regional Lead",
-        image: "/photos/shweta.jpg",
+        image: "/photos/shweta.png",
       },
       {
         name: "Shiza Khan",
