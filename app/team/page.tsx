@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { NewsletterForm } from "@/components/FooterNewsletterForm";
@@ -116,7 +115,7 @@ const branches = [
       {
         name: "Shweta Saju",
         role: "Canadian Regional Lead",
-        image: "/photos/shweta.png",
+        image: "/people/shweta.png",
       },
       {
         name: "Shiza Khan",
