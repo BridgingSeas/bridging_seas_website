@@ -109,7 +109,7 @@ const branches = [
       },
     ],
   },
-  {
+    {
     title: "Canada Region",
     members: [
       {
