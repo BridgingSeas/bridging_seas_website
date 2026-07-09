@@ -32,7 +32,7 @@ const execDirectors = [
     major: "Computer Science; minors in Chinese Language & Ethnography",
     linkedin: "https://www.linkedin.com/in/laurenwylee/",
     github: "https://github.com/laurenwylee",
-    // website: "https://github.com/laurenwylee",
+    website: "https://www.laurenwylee.com/",
   },
   {
     name: "Sharon Liu",
