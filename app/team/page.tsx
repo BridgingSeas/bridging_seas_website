@@ -109,24 +109,23 @@ const branches = [
       },
     ],
   },
-    {
+   {
     title: "Canada Region",
     members: [
       {
         name: "Shweta Saju",
         role: "Canadian Regional Lead",
-        image: "/people/shweta.png",
+        image: "/people/shweta.jpg",
       },
       {
         name: "Shiza Khan",
         role: "Canadian Director of Graphic Design",
-        image: "/people/shiza2.jpg",
-       },
+        image: "/people/shiza2.jpeg",
+      },
       { name: "Miriam Cherian", 
         role: "Marketing Director", 
-        image: "/people/miriam.jpg" 
+        image: "/people/miriam.png", 
       },
-      
     ],
   },
     {
@@ -139,7 +138,7 @@ const branches = [
       },
       {
         name: "Klarisse Ng",
-        role: "Singaporean Regional Lead & Western Hemisphere Lead",
+        role: "Singaporean Regional Lead & Eastern Hemisphere Lead",
         image: "/people/klarisse.jpeg",
       },
       { name: "Kaitlyn Tay Rui Yi", 
