@@ -272,7 +272,7 @@ function TeamCard({
       <div className="pt-3">
         <h3 className="text-lg font-bold text-foreground">{person.name}</h3>
         <p className="text-sm text-muted">{person.role}</p>
-        <SocialRow linkedin={person.linkedin} github={person.github} />
+        <SocialRow linkedin={person.linkedin} github={person.github} website={person.website} />
       </div>
     </article>
   );
@@ -329,6 +329,7 @@ export default function TeamPage() {
                       <SocialRow
                         linkedin={member.linkedin}
                         github={member.github}
+                        website={member.website}
                         iconSize={26}
                       />
                     </div>
