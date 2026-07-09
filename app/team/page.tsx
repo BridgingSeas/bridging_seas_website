@@ -116,7 +116,7 @@ const branches = [
       {
         name: "Shweta Saju",
         role: "Canadian Regional Lead",
-        image: "/photos/shweta.png",
+        image: "/photos/shweta2.png",
       },
       {
         name: "Shiza Khan",
@@ -140,7 +140,7 @@ const branches = [
       },
       {
         name: "Klarisse Ng",
-        role: "Singaporean Regional Lead & Western Hemisphere Lead",
+        role: "Singaporean Regional Lead & Eastern Hemisphere Lead",
         image: "/people/klarisse.jpeg",
       },
       { name: "Kaitlyn Tay Rui Yi", 
