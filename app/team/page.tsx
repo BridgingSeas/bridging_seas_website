@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { NewsletterForm } from "@/components/FooterNewsletterForm";
@@ -109,23 +110,24 @@ const branches = [
       },
     ],
   },
-   {
+  {
     title: "Canada Region",
     members: [
       {
         name: "Shweta Saju",
         role: "Canadian Regional Lead",
-        image: "/people/shweta.jpg",
+        image: "/photos/shweta.png",
       },
       {
         name: "Shiza Khan",
         role: "Canadian Director of Graphic Design",
-        image: "/people/shiza2.jpeg",
-      },
+        image: "/people/shiza2.jpg",
+       },
       { name: "Miriam Cherian", 
         role: "Marketing Director", 
-        image: "/people/miriam.png", 
+        image: "/people/miriam.jpg" 
       },
+      
     ],
   },
     {
@@ -138,7 +140,7 @@ const branches = [
       },
       {
         name: "Klarisse Ng",
-        role: "Singaporean Regional Lead & Eastern Hemisphere Lead",
+        role: "Singaporean Regional Lead & Western Hemisphere Lead",
         image: "/people/klarisse.jpeg",
       },
       { name: "Kaitlyn Tay Rui Yi", 
