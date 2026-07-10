@@ -4,7 +4,6 @@ import FooterNewsletterForm from "./FooterNewsletterForm";
 import InstagramLogo from "./InstagramLogo";
 import LinkedinLogo from "./LinkedinLogo";
 import TiktokLogo from "./TiktokLogo";
-import XLogo from "./XLogo";
 
 export default function Footer() {
   const socials = [
@@ -23,14 +22,8 @@ export default function Footer() {
     {
       name: "LinkedIn",
       handle: "@bridging-seas",
-      icon: <LinkedinLogo />,
+      icon: <LinkedinLogo tone="pink" size={17} />,
       href: "https://linkedin.com/company/bridging-seas",
-    },
-    {
-      name: "X",
-      handle: "@BridgingSeas",
-      icon: <XLogo />,
-      href: "https://x.com/BridgingSeas",
     },
     {
       name: "TikTok",
@@ -56,7 +49,9 @@ export default function Footer() {
                 href={social.href}
                 className="flex w-fit items-center gap-3 text-sm underline-offset-3 text-background transition-colors duration-200 hover:text-foreground"
               >
-                {social.icon}
+                <span className="flex w-6 shrink-0 items-center justify-center">
+                  {social.icon}
+                </span>
                 <span>{social.handle}</span>
               </Link>
             ))}

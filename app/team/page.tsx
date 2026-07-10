@@ -209,7 +209,7 @@ function SocialRow({
   linkedin,
   github,
   website,
-  iconSize = 20,
+  iconSize = 17,
 }: Readonly<{
   linkedin?: string;
   github?: string;
@@ -221,7 +221,7 @@ function SocialRow({
   }
 
   return (
-    <div className="flex gap-2">
+    <div className="flex items-center gap-2">
       {linkedin ? (
         <Link
           href={linkedin}
@@ -230,7 +230,7 @@ function SocialRow({
           aria-label="LinkedIn profile"
           className="transition-transform duration-200 hover:-translate-y-0.5"
         >
-          <LinkedinLogo size={iconSize} />
+          <LinkedinLogo size={Math.round(iconSize * 0.85)} />
         </Link>
       ) : null}
       {github ? (
@@ -252,7 +252,7 @@ function SocialRow({
           aria-label="Personal Website"
           className="transition-transform duration-200 hover:-translate-y-0.5"
         >
-          <GlobeLogo/>
+          <GlobeLogo size={iconSize} />
         </Link>
       ) : null}
     </div>
@@ -330,7 +330,7 @@ export default function TeamPage() {
                         linkedin={member.linkedin}
                         github={member.github}
                         website={member.website}
-                        iconSize={26}
+                        iconSize={22}
                       />
                     </div>
                   </div>

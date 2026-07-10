@@ -5,7 +5,7 @@ export default function TiktokLogo() {
     <Image
       src="/social/tiktok_logo.png"
       alt="Tiktok Icon"
-      width={20}
+      width={22}
       height={22}
       className="rounded-full"
     />
