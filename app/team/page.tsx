@@ -67,7 +67,7 @@ const branches = [
         image: "/people/sarika.jpg",
       },
       { name: "Eric Lam", 
-        role: "Chinese Outreach Director & Western Hemisphere Lead", 
+        role: "Vice President, Chinese Outreach Director & Western Hemisphere Lead", 
         image: "/people/eric.jpg",
       },
       {
@@ -77,7 +77,7 @@ const branches = [
       },
       {
         name: "Ethan Phang",
-        role: "Technology Director",
+        role: "Vice President & Technology Director",
         image: "/people/ethan.jpeg",
         linkedin: "https://www.linkedin.com/in/urb6n/",
         github: "https://github.com/urb6n",
