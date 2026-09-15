@@ -105,11 +105,6 @@ const branches = [
         image: "/people/kulraj.png",
       },
       {
-        name: "Julia Chawarski",
-        role: "Program Manager",
-        image: "/people/julia.jpeg"
-      },
-      {
         name: "Alice Lim",
         role: "Korean Outreach Director",
         image: "/people/alice.png"
