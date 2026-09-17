@@ -64,9 +64,10 @@ const branches = [
       {
         name: "Sarika Degtyarev",
         role: "Chapter Manager",
+        image: "/people/sarika.jpg",
         school: "University of California, Los Angeles",
         major: "Psychobiology",
-        image: "/people/sarika.jpg",
+    
       },
       { name: "Eric Lam", 
         role: "Vice President, Chinese Outreach Director & Western Hemisphere Lead", 
