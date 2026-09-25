@@ -135,7 +135,7 @@ const branches = [
       },
       { name: "Adrianna Sarao", 
         role: "Canadian Region Co-Lead", 
-        image: "/people/adrianna.jpg" 
+        image: "/people/adrianna.png" 
       },
       {
         name: "Shiza Khan",
