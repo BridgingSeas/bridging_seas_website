@@ -134,7 +134,7 @@ const branches = [
         image: "/people/shweta2.png",
       },
       { name: "Adrianna Sarao", 
-        role: "Canadian Region Co-Lead", 
+        role: "Canadian Regional Co-Lead", 
         image: "/people/adrianna.png" 
       },
       {
