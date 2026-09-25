@@ -126,21 +126,29 @@ const branches = [
     ],
   },
   {
-    title: "Canada Region",
+    title: "Canadian Region",
     members: [
       {
         name: "Shweta Saju",
         role: "Canadian Regional Lead",
         image: "/people/shweta2.png",
       },
+      { name: "Adrianna Sarao", 
+        role: "Canadian Region Co-Lead", 
+        image: "/people/adrianna.jpg" 
+      },
       {
         name: "Shiza Khan",
-        role: "Canadian Director of Graphic Design",
+        role: "Graphic Design Director",
         image: "/people/shiza2.jpg",
        },
       { name: "Miriam Cherian", 
         role: "Marketing Director", 
         image: "/people/miriam.jpg" 
+      },
+      { name: "Chloe Viesca", 
+        role: "Outreach Director", 
+        image: "/people/chloe_viesca.jpg" 
       },
       
     ],
