@@ -128,11 +128,6 @@ const branches = [
   {
     title: "Canadian Region",
     members: [
-      {
-        name: "Shweta Saju",
-        role: "Canadian Regional Lead",
-        image: "/people/shweta2.png",
-      },
       { name: "Miriam Cherian", 
         role: "Canadian Regional Lead", 
         image: "/people/miriam.jpg" 
@@ -141,12 +136,6 @@ const branches = [
         role: "Canadian Regional Co-Lead", 
         image: "/people/adrianna.png" 
       },
-      {
-        name: "Shiza Khan",
-        role: "Graphic Design Director",
-        image: "/people/shiza2.jpg",
-       },
-
       { name: "Chloe Viesca", 
         role: "Outreach Director", 
         image: "/people/chloe_viesca.jpg" 
