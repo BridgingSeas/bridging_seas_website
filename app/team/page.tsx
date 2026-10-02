@@ -133,6 +133,10 @@ const branches = [
         role: "Canadian Regional Lead",
         image: "/people/shweta2.png",
       },
+      { name: "Miriam Cherian", 
+        role: "Canadian Regional Lead", 
+        image: "/people/miriam.jpg" 
+      },
       { name: "Adrianna Sarao", 
         role: "Canadian Regional Co-Lead", 
         image: "/people/adrianna.png" 
@@ -142,15 +146,16 @@ const branches = [
         role: "Graphic Design Director",
         image: "/people/shiza2.jpg",
        },
-      { name: "Miriam Cherian", 
-        role: "Marketing Director", 
-        image: "/people/miriam.jpg" 
-      },
+
       { name: "Chloe Viesca", 
         role: "Outreach Director", 
         image: "/people/chloe_viesca.jpg" 
       },
-      
+      {
+        name: "Zayna Mahmood",
+        role: "Marketing and Graphic Design Director",
+        image: "/people/zayna.JPG",
+      },
     ],
   },
     {
