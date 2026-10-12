@@ -60,7 +60,7 @@ const opportunities = [
     title: "Join the Team",
     description:
       "Interested in helping shape programs, outreach, design, technology, or community building? Learn more about how to get involved with the Bridging Seas team.",
-    href: "https://x3vswh56e67.typeform.com/to/OqTPK0Nw?typeform-source=bridgingseas.carrd.co",
+    href: "https://docs.google.com/forms/d/e/1FAIpQLSf9FEgiffcPpYQsMTEByONbdhiQsSLYKUhsa8N7HUBsDwAubw/viewform?usp=header",
     cta: "Team Application",
     disabled: false,
   },
