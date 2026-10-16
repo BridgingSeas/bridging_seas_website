@@ -123,6 +123,11 @@ const branches = [
         role: "Bengali Outreach Director",
         image: "/people/namira.jpg"
       },
+      {
+        name: "Ammarah Basha",
+        role: "Turkish Outreach Director",
+        image: "/people/ammarah.HEIC"
+      },
     ],
   },
   {
