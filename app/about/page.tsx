@@ -53,7 +53,7 @@ export default function About() {
             </div>
             <div className="group relative overflow-hidden bg-muted px-6 py-8">
               <p className="text-sm leading-6 text-background/85 sm:text-base">
-                Bridging Seas is a youth-led global organization uniting the Asian diaspora by helping students connect with their roots and with each other. Out student led program model fosters leadership development and cultural exchange through meaningful connection.
+                Bridging Seas is a youth-led global organization uniting the Asian diaspora by helping students connect with their roots and with each other. Our student led program model fosters leadership development and cultural exchange through meaningful connection.
 
                 <br></br><br></br>Our programs include Diaspora Exchange, connecting students of the same ethnicity across regions, and Open Seas, bringing together diverse Asian cultures. Through both virtual and in-person initiatives, we create spaces for students to explore identity, community, and global perspectives.
               </p>
