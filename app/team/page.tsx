@@ -165,10 +165,21 @@ const branches = [
         role: "Singaporean Regional Lead & Eastern Hemisphere Lead",
         image: "/people/klarisse.jpeg",
       },
-      { name: "Kaitlyn Tay Rui Yi", 
+      { 
+        name: "Kaitlyn Tay Rui Yi", 
         role: "Singaporean Regional Lead", 
         image: "/people/kaitlyn.png", 
         linkedin: "https://www.linkedin.com/in/kaitlyn-tay-rui-yi",
+      },
+      {
+        name: "Lily Liu",
+        role: "Singaporean Outreach Director",
+        image: "/people/lily.png",
+      },
+      {
+        name: "Tay Mingxuan",
+        role: "Singaporean Outreach Director",
+        image: "/people/mingxuan.jpg",
       },
     ],
   },
