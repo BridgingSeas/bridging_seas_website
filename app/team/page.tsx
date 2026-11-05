@@ -152,7 +152,7 @@ const branches = [
       },
     ],
   },
-    {
+  {
     title: "Singapore Region",
     members: [
       {
@@ -183,7 +183,7 @@ const branches = [
       },
     ],
   },
-      {
+  {
     title: "Indian Region",
     members: [
       {
@@ -193,7 +193,7 @@ const branches = [
       },
     ],
   },
-      {
+  {
     title: "Korean Region",
     members: [
       {
@@ -217,7 +217,7 @@ const branches = [
       },
     ],
   },
-      {
+  {
     title: "Australian Region",
     members: [
       {
