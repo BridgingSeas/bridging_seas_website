@@ -174,7 +174,7 @@ const branches = [
       {
         name: "Lily Liu",
         role: "Singaporean Outreach Director",
-        image: "/people/lily.png",
+        image: "/people/lily.jpg",
       },
       {
         name: "Tay Mingxuan",
