@@ -45,7 +45,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="mt-8 grid gap-4 md:grid-cols-[0.9fr_1.1fr]">
+          <div  className="mt-8 grid gap-4 md:grid-cols-[0.9fr_1.1fr]">
             <div className=" px-6 py-8">
               <h2 className="text-3xl font-medium text-foreground sm:text-5xl">
                 Who are we?
