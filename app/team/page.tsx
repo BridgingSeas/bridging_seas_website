@@ -185,7 +185,7 @@ const branches = [
         name: "Rajanya Ganguly",
         role: "Singaporean Outreach Director",
         image: "/people/rajanya.jpg"
-      }
+      },
     ],
   },
   {
